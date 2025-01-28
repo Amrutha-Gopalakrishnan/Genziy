@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    margin-right: 10px;
+    margin-left:  10px;
+}
+
+.navbar-nav{
+    margin-left: 75%;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand::first-letter{
+    color: rgb(0, 221, 255);
+}
+
+.main{
+    background: url(./pexels-krishna-15316535.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: robot;
+    margin-right:20% ;
+    margin-top: 30%;
+    color: white;
+}
+
+.btn-1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: rgba(174, 10, 10, 0.729);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right:20% ;
+}
+
+ h1{
+    font-weight: 700;
+    color: black;
+}
+
+#btn:hover{
+    color: black;
+    font-weight: 600;
+}
+
+.card:hover{
+    -webkit-box-shadow: 12px -9px 41px -4px rgba(20,183,224,1);
+-moz-box-shadow: 12px -9px 41px -4px rgba(20,183,224,1);
+box-shadow: 12px -9px 41px -4px rgba(20,183,224,1);
+transition:0.5s ;
+}
+
+#about .card:hover{
+    transform: none;
+    box-shadow: none;
+}
+
+.about p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+@media screen and (max-width:1024px) {
+    .main h1, .btn-1{
+        margin-top: 60%;
+    }
+    
+}
